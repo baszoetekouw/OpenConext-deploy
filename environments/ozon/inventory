@@ -1,0 +1,17 @@
+[storage]
+145.100.181.86
+
+[java-apps]
+145.100.180.98
+
+[php-apps]
+145.100.181.50
+
+[loadbalancer]
+145.100.181.51
+
+[ozon:children]
+storage
+java-apps
+php-apps
+loadbalancer
